@@ -1,7 +1,6 @@
 # Brainfuck
 
-These files should help you get started with your brainfuck implementation.
-In specific, they take care of the fiddly bit with reading a file.
+This is a gas assembly brainfuck interpreter that I wrote as a university assignment. 
 
 There are a few files in here for you:
 
@@ -14,9 +13,7 @@ There are a few files in here for you:
     This subroutine is used by the main function in main.s.
 
  - brainfuck.s:
-    This is where you should put your brainfuck implementation.
-    In it you should define a `brainfuck` subroutine that takes
-    a single argument: a string holding the code to execute.
+    Contains the interpreter implementation. It is a subroutine that takes a single argument: a string holding the code to execute.
 
  - Makefile:
     A file containing compilation information.  If you have a working make,
